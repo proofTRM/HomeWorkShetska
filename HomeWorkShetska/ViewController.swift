@@ -26,8 +26,8 @@ class ViewController: UIViewController {
 //        Задание № 3
         
         print(stroki(a:"ыыа", b:"фвы"))
-//        Задание 4
-        
+//        Задание 4 ( после задания 4 сл функции перестают работать , если задокументировать все работает хорошо)
+        err(a: 5)
 //      Задание 5
         
         print(voz(number: 4))
@@ -110,7 +110,15 @@ class ViewController: UIViewController {
         }
         
     }
-//    Задание 4( сломать Xcode)
+//  Задание 4( сломать Xcode)
+    func err ( a: Int){
+        var number = a
+    while number > 1{
+        number = number * 1
+    }
+             print (number)
+    }
+ 
     
 //    Задание 5 возведение в степень с дефолтным параметром
     
